@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+    <body>
+
+        <header class= "text-center">
+        <h1 id="title">UberEats Survey</h1>
+        <p id="description" class = "description">How often do you use <a href="http://www.ubereats.com">UberEats</a> </p>
+        
+        </header>
+
+
+        <img src="u.png" class = "img-control" alt="UberEats">
+         
+        <form id= "survey-form">
+        
+
+
+            <div class="form-group">
+            
+                <label> Name: </label>
+                <input name="name" type="text" size="25" maxlength="30" class= "form-control">
+
+            
+            </div>
+
+
+            <div class = "form-group">
+                <label> Email: </label>
+                <input name="email" type="text" size="25" class= "form-control">
+            </div>
+
+            <div class = "form-group">
+                <label> How Often do you order UberEats a week?</label>
+                 
+                
+                <label>0
+                    <input name="often" type="radio" value="zero">
+                </label>
+
+                <label>1-2
+                    <input name="often" type="radio" value="1-2">
+                </label>
+
+                <label>3-5
+                    <input name="often" type="radio" value="3-5">
+                </label>
+
+                <label>6+
+                    <input name="often" type="radio" value="6+">
+                </label>
+        
+            </div>
+
+            <div class="form-group">
+                <label for="fastfoods">Choose your favourite fast food place:</label>
+
+                <select name="fastfoods" id="fastfoods" class= "form-control">
+                <option value="mcds">McDonalds</option>
+                <option value="subway">Subway</option>
+                <option value="kfc">KFC</option>
+                <option value="pop">Popeyes</option>
+                </select>
+
+
+            </div>
+
+
+
+            <div class="form-group">
+                <label>Select all the food options you prefer:</label>
+
+                <label>Burgers
+                     <input name="thingsliked" type="checkbox" value="burgs">
+                </label>
+
+                <label>Fried Chicken
+                     <input name="thingsliked" type="checkbox" value="fried">
+                </label>
+
+                <label>Pizza
+                    <input name="thingsliked" type="checkbox" value="pizz">
+                </label>
+
+                <label>Wings
+                    <input name="thingsliked" type="checkbox" value="wingz">
+                 </label>
+
+                <label>Pasta
+                    <input name="thingsliked" type="checkbox" value="pas">
+                </label>
+            </div>
+
+
+        <div class= "form-group">
+                
+                <label>Additional Comments <br>
+                <textarea name="comments"cols="36" rows="4" placeholder="Enter your comments here."></textarea>
+            </label>
+        
+        
+        </div>
+
+        <div class = form-group>
+            <button type="submit" value="Submit">Submit</button>
+        </div>
+        
+        </form>
+
+        <footer class = form-group>
+            <p>Designed by: Jag</p>
+            <p><a href="Jag@doge.com">jag@doge.com</a></p>
+          </footer>
+
+
+    
+    </body>
+</html>
