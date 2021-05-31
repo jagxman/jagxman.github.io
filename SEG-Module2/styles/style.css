@@ -1,16 +1,28 @@
 /* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
 
 /* Style the tab */
+body{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
 .tab {
+  text-align: center;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+
 }
+
+
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
+  text-align: center;
   background-color: inherit;
-  float: left;
+  float: middle;
   border: none;
   outline: none;
   cursor: pointer;
@@ -35,3 +47,35 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+
+.main-title {
+  background:rgba(0,0,0,0.5);
+  text-align: center;
+  color: white;
+  padding:50px;
+  font-variant: small-caps;
+  font-size: 30px;
+  font-family: fantasy;
+  letter-spacing: fantasy;
+
+
+}
+
+.bgfoods{
+  background-image:url('vegs.png');
+  height:max-content;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer{
+  background:rgba(0,0,0,0.5);
+  text-align: center;
+  color: white;
+}
+
+
+

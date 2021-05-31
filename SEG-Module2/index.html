@@ -7,10 +7,10 @@
 
 <body>
 
-  <title>f00d Market</title>
+  <title>Super Market</title>
 
-  <div class = "title">
-    <h1>"Food Market" ™</h1>
+  <div class = "bgfoods">
+    <div class = "main-title">"Super Market" ™</div>
   </div>
 
 <!-- Tab links, each one with an onclick event associated with it -->
@@ -29,17 +29,21 @@
 	<option value=""></option>
 	<option value="LactoseFree">LactoseFree</option>
     <option value="NutFree">NutFree</option>
+    <option value="NutLacFree">NutFree and LactoseFree</option>
     <option value="None">None</option>
 	</select>
 
   <!-- Organic Option-->
-
+  
+  <br>
+  <br>
+  <br>
   <div class="org-option">
     <label>Would you like Organic options only?</label>
   <label>Yes</label>
-  <input id= "organic-option" name= "organic-option" type="radio" value="yes">
+  <input id= "organic-yes" name="organic-option" type="radio" value="yes">
   <label>No</label>
-  <input id= "organic-option" name= "organic-option" type="radio" value="no">
+  <input id= "organic-no" name="organic-option"  type="radio" value="no">
   </div>      
   
   
@@ -66,6 +70,12 @@
   <p>Here is your cart.</p>
   <div id="displayCart"></div>
 </div>
+
+
+<footer class = footer>
+  <p>Designed by: Jag</p>
+  <p><a href="https://www.youtube.com/watch?v=u_U_dOOI9us">jag@doge.com</a></p>
+</footer>
 
 <script src="scripts/groceries.js"></script>
 <script src="scripts/main.js"></script>

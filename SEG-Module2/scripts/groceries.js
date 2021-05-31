@@ -3,89 +3,7 @@
 // A set of ingredients should be added to products		 
 
 var products = [
-	{
-		name: "Brocoli",
-		price: 1.99,
-		organic: false,
-		lactose: true,
-		nut: true
-	},
-	{
-		name: "Brocoli - Organic",
-		price: 2.99,
-		organic: true,
-		lactose: true,
-		nut: true
-	},
 
-	{
-		name: "Almond-Milk",
-		price: 4.44,
-		organic: false,
-		lactose: true,
-		nut: false
-	},
-
-	{
-		name: "Milk",
-		price: 2.53,
-		organic: false,
-		lactose: false,
-		nut: true
-	},
-
-	{
-		name: "Ice-Cream Sandwich",
-		price: 2.60,
-		organic: false,
-		lactose: false,
-		nut: true
-	},
-	{
-		name: "Parmesan Cheese",
-		price: 0.60,
-		organic: false,
-		lactose: false,
-		nut: true
-	},
-	{
-		name: "Nutty Chocolate Bar",
-		price: 1.25,
-		organic: false,
-		lactose: false,
-		nut: false
-	},
-	{
-		name: "Granola Cereal",
-		price: 3.25,
-		organic: false,
-		lactose: true,
-		nut: false
-	},
-
-	{
-		name: "Macadamia cookies",
-		price: 6.25,
-		organic: false,
-		lactose: true,
-		nut: false
-	},
-
-	{
-		name: "Bread",
-		price: 2.35,
-		organic: false,
-		lactose: true,
-		nut: true
-	},
-
-	{
-		name: "Bread - Organic",
-		price: 4.35,
-		organic: true,
-		lactose: true,
-		nut: true
-	},
 	{
 		name: "Apple",
 		price: 0.99,
@@ -93,7 +11,6 @@ var products = [
 		lactose: true,
 		nut: true
 	},
-
 	{
 		name: "Apple - Organic",
 		price: 1.50,
@@ -101,23 +18,42 @@ var products = [
 		lactose: true,
 		nut: true
 	},
+
 	{
-		name: "Strawberries",
-		price: 2.50,
+		name: "Brocoli",
+		price: 1.60,
 		organic: false,
 		lactose: true,
 		nut: true
 	},
 	{
-		name: "Strawberries - Organic",
-		price: 3.00,
+		name: "Brocoli - Organic",
+		price: 1.90,
 		organic: true,
 		lactose: true,
 		nut: true
 	},
+
+
+	{
+		name: "Macadamia cookies",
+		price: 1.96,
+		organic: false,
+		lactose: true,
+		nut: false
+	},
+
 	{
 		name: "Spinach",
-		price: 2.35,
+		price: 1.99,
+		organic: false,
+		lactose: true,
+		nut: true
+	},
+
+	{
+		name: "Peaches",
+		price: 2.31,
 		organic: false,
 		lactose: true,
 		nut: true
@@ -129,62 +65,137 @@ var products = [
 		lactose: true,
 		nut: true
 	},
-	{
-		name: "Blueberries",
-		price: 3.10,
-		organic: false,
-		lactose: true,
-		nut: true
-	},
-	{
-		name: "Blueberries - Organic",
-		price: 3.50,
-		organic: true,
-		lactose: true,
-		nut: true
-	},
-	{
-		name: "Bell Peppers",
-		price: 2.35,
-		organic: false,
-		lactose: true,
-		nut: true
-	},
-	{
-		name: "Peaches",
-		price: 2.35,
-		organic: false,
-		lactose: true,
-		nut: true
-	},
-	{
-		name: "Beef",
-		price: 2.35,
-		organic: false,
-		lactose: true,
-		nut: true
-	},
-	{
-		name: "Chicken",
-		price: 2.35,
-		organic: false,
-		lactose: false,
-		nut: false
-	},
+
 	{
 		name: "Cherries",
-		price: 2.35,
+		price: 2.40,
 		organic: false,
 		lactose: true,
 		nut: true
 	},
 	{
 		name: "Pear",
-		price: 2.35,
+		price: 2.44,
 		organic: false,
 		lactose: true,
 		nut: true
 	},
+
+	{
+		name: "Blueberries",
+		price: 2.65,
+		organic: false,
+		lactose: true,
+		nut: true
+	},
+	{
+		name: "Blueberries - Organic",
+		price: 2.75,
+		organic: true,
+		lactose: true,
+		nut: true
+	},
+	{
+		name: "Bell Peppers",
+		price: 2.99,
+		organic: false,
+		lactose: true,
+		nut: true
+	},
+
+	{
+		name: "Bread",
+		price: 3.25,
+		organic: false,
+		lactose: true,
+		nut: true
+	},
+
+	{
+		name: "Bread - Organic",
+		price: 3.55,
+		organic: true,
+		lactose: true,
+		nut: true
+	},
+	
+	{
+		name: "Strawberries",
+		price: 3.60,
+		organic: false,
+		lactose: true,
+		nut: true
+	},
+	{
+		name: "Strawberries - Organic",
+		price: 3.75,
+		organic: true,
+		lactose: true,
+		nut: true
+	},
+	
+	
+
+	{
+		name: "Almond-Milk",
+		price: 4.44,
+		organic: false,
+		lactose: true,
+		nut: false
+	},
+
+	{
+		name: "Milk",
+		price: 5.53,
+		organic: false,
+		lactose: false,
+		nut: true
+	},
+
+	{
+		name: "Ice-Cream Sandwich",
+		price: 5.78,
+		organic: false,
+		lactose: false,
+		nut: true
+	},
+	{
+		name: "Parmesan Cheese",
+		price: 5.99,
+		organic: false,
+		lactose: false,
+		nut: true
+	},
+	{
+		name: "Nutty Chocolate Bar",
+		price: 6.29,
+		organic: false,
+		lactose: false,
+		nut: false
+	},
+	{
+		name: "Granola Cereal",
+		price: 7.30,
+		organic: false,
+		lactose: true,
+		nut: false
+	},
+
+	{
+		name: "Beef",
+		price: 7.45,
+		organic: false,
+		lactose: true,
+		nut: true
+	},
+	{
+		name: "Chicken",
+		price: 7.95,
+		organic: false,
+		lactose: true,
+		nut: true
+	},
+
 	{
 		name: "salmon",
 		price: 10.00,
@@ -200,46 +211,55 @@ var products = [
 // given restrictions provided, make a reduced list of products
 // prices should be included in this list, as well as a sort based on price
 
-function restrictListProducts(prods, restriction) {
+function restrictListProducts(prods, restriction,) {
 	let product_names = [];
 
 	//need to see if Organic Option is selected.
-	var org = document.getElementById("organic-option").value;
 
-
+	var org_yes = document.getElementById("organic-yes");
+	var org_no = document.getElementById("organic-no");
 	for (let i=0; i<prods.length; i+=1) {
 
 
-		if (org == "yes"){
+		if ( org_yes.checked){
 
 			if ((restriction == "LactoseFree") && (prods[i].lactose == true) && (prods[i].organic == true)){
-				product_names.push(prods[i].name);
+				product_names.push(prods[i]);
 			}
 	
 	
-			else if ((restriction == "Nutfree") && (prods[i].nut == true) && (prods[i].organic == true)){
-				product_names.push(prods[i].name);
-	
+			else if ((restriction == "NutFree") && (prods[i].nut == true) && (prods[i].organic == true)){
+				product_names.push(prods[i]);
+			}
+
+			else if ((restriction == "NutLacFree") && (prods[i].nut == true) && (prods[i].lactose == true) && (prods[i].organic == true)){
+				product_names.push(prods[i]);
 			}
 
 			else if((restriction == "None") && (prods[i].organic == true)){
-				product_names.push(prods[i].name);
+				product_names.push(prods[i]);
 			}
 
 
 
 		}
 
-		else if (org == "no"){
+		else if (org_no.checked){
 
 			if ((restriction == "LactoseFree") && (prods[i].lactose == true) && (prods[i].organic == false)){
-				product_names.push(prods[i].name);
+				product_names.push(prods[i]);
 			}
-			else if ((restriction == "Nutfree") && (prods[i].nut == true) && (prods[i].organic == false)){
-				product_names.push(prods[i].name);
+			else if ((restriction == "NutFree") && (prods[i].nut == true) && (prods[i].organic == false)){
+				product_names.push(prods[i]);
 			}
+
+			else if ((restriction == "NutLacFree") && (prods[i].nut == true) && (prods[i].lactose == true) && (prods[i].organic == false)){
+				product_names.push(prods[i]);
+			}
+
+
 			else if ((restriction == "None") && (prods[i].organic == false)){
-				product_names.push(prods[i].name);
+				product_names.push(prods[i]);
 			}
 
 		}
