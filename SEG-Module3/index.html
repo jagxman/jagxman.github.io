@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<! This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp>
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <title>Super Market</title>
+
+  <div class = "bgfoods">
+    <div class = "main-title">"Super Market" ™</div>
+  </div>
+
+
+<!----  Accordion Layout.    -->
+
+
+<section class = "home" id= "home">
+
+  <div class="image">
+
+    <img src="styles/cart.png" alt="">
+  </div>
+
+
+  <div class = "content">
+    <span>Fresh and Organic</span>
+    <h3>Shopping Made Easy</h3>
+  </div>
+
+
+
+</section>
+
+
+<button class="accordion">Client</button>
+<div id="Client" class="panel">
+  <h3>Client Information</h3>
+  <p>Tell us a bit about you.</p>
+  <p>Select all the options you prefer:</p>
+
+
+  <input type="checkbox" id="Lactosefree" name="Lactosefree" value = "Lactosefree">
+  <Label>Lactose Free</Label>
+
+  <input type="checkbox" id="Nutfree" name="Nutfree" value = "Nutfree">
+  <Label>Nut Free</Label>
+
+  <input type="checkbox" id="organic-op" name="organic-op" value = "organic-op">
+  <Label>Organic</Label>
+
+  <input type="checkbox" id="Non-Vegetarian" name="Non-Vegetarian" value = "Non-Vegetarian">
+  <Label>Non-Vegetarian</Label>
+
+  <input type="checkbox" id="Pescatarian" name="Pescatarian" value = "Pescatarian">
+  <Label>Pescatarian</Label>
+
+
+
+  <br>
+  <br>
+  <br>
+  
+  
+  
+  <button id="save" type="button" onclick="populateListProductChoices('displayProduct')">
+    Confirm Selection
+  </button>
+  <br>
+  <br>
+
+</div>
+
+<button class="accordion">Products</button>
+  <div id="Products" class="panel">
+    <h3>Your targeted products</h3>
+    <p>We preselected products based on your restrictions.</p>
+     Choose items to buy:
+     <div id="displayProduct"></div>
+     <button id="addCart" type="button" class="block" onclick="selectedItems()">
+      Add selected items to cart.
+    </button>
+    <br>
+  <br>
+  </div>
+
+<button class="accordion">Cart</button> 
+<div id="Cart" class="panel">
+  <h3>Cart</h3>
+  <p>Here is your cart.</p>
+  <div id="displayCart"></div>
+  <br>
+  <br>
+</div>
+
+
+
+<footer class = footer>
+  <p>Designed by: Jag</p>
+  <p><a href="https://www.youtube.com/watch?v=u_U_dOOI9us">jag@doge.com</a></p>
+</footer>
+
+<script src="scripts/groceries.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
