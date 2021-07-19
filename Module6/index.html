@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogeVet</title>
+    <link rel="icon" href="img/dogecoin-doge-logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/excite-bike/jquery-ui.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script src="validation.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            
+            <img src="img/v2.png" alt="D" width="3%" class="d-inline-block align-text-top">
+            <a href="#" class="navbar-brand">ixHoopers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+
+                        <a href="#home" class="nav-link"> <i class="fas fa-home"></i> Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link"> <i class="fas fa-basketball-ball"></i> Book a Court</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"> <i class="fas fa-users"></i> Find Players</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"> <i class="fas fa-phone-alt"></i> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+
+    <!-- Home -->
+
+    <section id="home" class="bg-dark text-light p-5 text-center">
+        <div class="container">
+            <div class="d-sm-flex">
+                <div>
+                    <h1>Visit a <span class="text-warning">Doge-Veterinarian.</span></h1>
+                    <h5>26 Nelson St, Toronto, Ontario</h5>
+                    <p class="lead my-4">
+                        We have been providing outstanding veterinary care to Toronto since 1991.
+                        At DogeVet, we are open 24/7 depending on your expert and we know that your pet is an important part of your family. Our team has been providing pet patients in Toronto the highest level of compassionate medical and surgical care for 30 years. We take the time to ensure that our patients receive the care they deserve and that their families are well informed and a proactive part of that care. Our highly qualified doctors and technicians can help your pet to live a long, healthy and happy life.
+                    </p>
+
+                
+                </div>
+                <img class="img-fluid w-50 p-3" src="img/312322-ffffff.svg" alt="" width="100%">
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Services</h2>
+            <div class="row text-center">
+                <div class="col d-flex align-self-stretch">
+                    <div class="card bg-dark text-light">
+                        <img src="img/47222-ffffff.svg" alt="D" width="50%" class="mx-auto">
+                        <div class="card-body text-center d-flex flex-column">
+                          <h5 class="card-title">Vaccinations</h5>
+                          <p class="card-text">At DogeVet, we believe it is our primary responsibility to keep your pet as healthy as possible so we do recommend physical examinations and a vaccination assessment on an annual basis for both adult cats and dogs.</p>
+
+                          <a href="#" class="btn btn-primary mt-auto"  data-bs-toggle="modal" data-bs-target="#book">Book Now ($15)</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex align-self-stretch">
+                    <div class="card bg-dark text-light">
+                        <img src="img/305536-ffffff.svg" alt="D" width="70%" class="mx-auto">
+                        <div class="card-body text-center d-flex flex-column">
+                          <h5 class="card-title">Surgery</h5>
+                          <p class="card-text">We provide many surgical services at our hospital including routine spays and neuters, soft-tissue and orthopedic surgeries. Occasionally, we refer our patients to specialists (board certified veterinary surgeons) to perform complex operations.</p>
+
+                          <a href="#" class="btn btn-primary mt-auto"  data-bs-toggle="modal" data-bs-target="#book">Book Now ($200)</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex align-self-stretch">
+                    <div class="card bg-dark text-light">
+                        <img src="img/1770788-ffffff.svg" alt="D" width="70%" class="mx-auto">
+                        <div class="card-body text-center d-flex flex-column" >
+                          <h5 class="card-title">Pet Dentistry</h5>
+                          <p class="card-text">Just like people, our pets’ teeth ideally should be professionally scaled and polished regularly. This procedure not only cleans off the obvious brown tartar off your pet's teeth but more importantly it cleans underneath the gum line.</p>
+                          <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#book">Book Now ($40)</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex align-self-stretch">
+                    <div class="card bg-dark text-light">
+                        <img src="img/1294260-ffffff.svg" alt="D" width="80%" class="mx-auto">
+                        <div class="card-body text-center d-flex flex-column">
+                          <h5 class="card-title">Puppy Wellness</h5>
+                          <p class="card-text">We will ask you questions about your dog's diet, exercise, thirst, breathing, behavior, habits, elimination patterns (i.e., bowel movements and urination), lifestyle, and general health. Your veterinarian will also perform a physical examination of your dog.</p>
+                          <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#book">Book Now ($20)</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex align-self-stretch">
+                    <div class="card bg-dark text-light">
+                        <img src="img/312322-ffffff.svg" alt="D" width="70%" class="mx-auto">
+                        <div class="card-body text-center d-flex flex-column">
+                          <h5 class="card-title">Radiology</h5>
+                          <p class="card-text">Many tooth conditions can be missed without dental X- rays. High resolution digital dental radiographs show the tooth pulp, roots, crown and surrounding bone of each tooth with dramatic clarity. This information helps the veterinarian uncover hidden conditions such as tooth abscesses, and fractures.</p>
+                          <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#book">Book Now ($35)</a>
+                        </div>
+                      </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Experts -->
+
+    <section id="about" class="p-5 bg-primary">
+
+        <div class="container">
+            <h2 class="text-center text-white">About Us</h2>
+                <p class="lead text-center text-white mb-5">
+                    Meet our experts who have more than 15+ years of experience as a veterinarian! 
+                </p>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" alt="">
+
+                                <h3 class="card-title mb-3">Dr. Payton</h3>
+                                <p class="card-text">Earned his Doctor of Veterinary Medicine with Distinction from University of Guelph. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/women/90.jpg" class="rounded-circle mb-3" alt="">
+
+                                <h3 class="card-title mb-3">Dr. Nguyen</h3>
+                                <p class="card-text">Graduated from the faculty of veterinary medicine from University of Ottawa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/men/67.jpg" class="rounded-circle mb-3" alt="">
+
+                                <h3 class="card-title mb-3">Dr. Lee</h3>
+                                <p class="card-text">Earned his Doctor of Veterinary Medicine with Distinction from University of Toronto.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle mb-3" alt="">
+
+                                <h3 class="card-title mb-3">Dr. Montgomery </h3>
+                                <p class="card-text">Graduated from the faculty of veterinary medicine from University of Ryerson.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+
+    <section class="p-5">
+        <div id="contact" class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Us.</h2>
+                    <ul class="list-group list-group-flush lead">
+
+                        <li class="list-group-item">
+                            <span class="fw-bold">Location:</span> 26 Nelson St, Toronto, Ontario
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone Number:</span> (647)-880-1234
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> admin@dogevet.ca
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="fw-bold">Fax:</span> (647)-880-1234
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center">
+        <div class="container">
+            <p class="lead">Designed by: Jag</p>
+            <p><a href="https://www.youtube.com/watch?v=u_U_dOOI9us">jag@doge.com</a></p>
+        </div>
+    </footer>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Appointment Confirmed</h5>
+                </div>
+
+                <div class="modal-body">
+                    
+                    <p id = "infoFill"></p>
+                    <br>
+                    Congratulations! We hope to see you soon!<br>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+    <!-- Modal -->
+<div class="modal fade" id="book" tabindex="-1" aria-labelledby="bookLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bookLabel">Appointment Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Please fill out this form.</p>
+        
+
+        <form>
+        <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+                First Name:
+            </label>
+            <input type="text" placeholder="John" class="form-control" id="first-name">
+        </div>
+
+        <div class="mb-3">
+            <label for="last-name" class="col-form-label">
+                Last Name:
+            </label>
+            <input type="text" placeholder="Doe" class="form-control" id="last-name">
+        </div>
+
+        <div class="mb-3">
+            <label for="phone" class="col-form-label">
+                Phone-Number:
+            </label>
+            <input type="tel" placeholder="XXX-XXX-XXXX" class="form-control" id="phone">
+        </div>
+
+        <div class="mb-3">
+                <label for="email" class="col-form-label">
+                    Email:
+                </label>
+                <input type="email" placeholder="johndoe@email.com" class="form-control" id="email">
+
+        </div>
+
+        <div class="mb-3">
+
+            <label for="debit" class="col-form-label">
+                Credit/Debit:
+            </label>
+        <input type = "text" id = "debit" name = "creditNum" class = "form-control" placeholder="XXXX XXXX XXXX XXXX" title="We ask for your Credit Card Info to avoid No-shows. If you would like to cancel your appointment please call us 24 hours before your appointment."/>
+
+        </div>
+
+
+        <div class="mb-3">
+
+            <label for="service" class="col-form-label">
+                Select Expert:
+            <select class="form-select" id="select-pro" aria-label="Default select example" id="service">
+                <option selected disabled>Select</option>
+                <option value="Lee">Dr Lee</option>
+                <option value="Montgomery">Dr. Montgomery</option>
+                <option value="Nguyen">Dr. Nguyen</option>
+                <option value="Payton">Dr. Payton</option>
+              </select>
+        </div>
+
+        
+          <div class = "mb-3">
+            <div class = "col-md-3">Date:</div>
+            <div class = "col-md">
+                <div class = "row">
+                    <div class = "col-md">
+                        <div class = "form-group">
+                            <input type = "text" class ="form-control" id = "dateInput" placeholder="mm/dd/yyyy"/>                               
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+                
+            </div>
+        </div>
+
+
+
+        <div class="mb-3">
+            <label for="time-book" class="col-form-label">
+                Time:
+            </label>
+            <input type="time" class="form-control" min="10:00" max=19:00" id="time-book">
+
+        </div>
+    </div>
+
+
+        </form>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" id="submitbtn" class="btn btn-primary"data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal"   disabled >Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiamFnMTc3IiwiYSI6ImNrcHRrbHlzbTBxYjMycHBtNXBiZjY5ZGoifQ.0Qk0en3C71eNNeypAxuztQ';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center:[-79.3888246,43.6486711],
+        zoom: 17,
+        });
+    </script>
+</body>
+</html>
